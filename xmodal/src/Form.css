@@ -1,0 +1,35 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.modal-content{
+    height: 70%;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 30%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: absolute;
+    top: 150px;
+    background-color: white;
+    z-index: 3;
+}
+
+.submit-button{
+    background-color: cornflowerblue ;
+    border-radius: 5px;
+    width: 70px;
+    height: 25px;
+    color: white;
+}
+
+input{
+    width: 60%;
+    height: 30px;
+    margin-top: 1px !important;
+    border-radius: 5px;
+}
