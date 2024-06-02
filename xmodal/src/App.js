@@ -38,12 +38,15 @@ function App() {
 
   
   return (
-    <div id="main" className={`modal ${openForm ? 'modal-open' : ''}`}>
+    <div id="main" className={`model ${openForm ? 'modal-open' : ''}`}>
     <div className="header-container">
     <h1>User Details Form</h1>
       <button onClick={handleOpenForm}>Open Form</button>
     </div>
-    { openForm ? <Form ref={formRef} onClose={handleCloseForm}/> : ''}
+    { openForm ? 
+    <div className='modal'>
+    <Form ref={formRef} onClose={handleCloseForm}/>
+    </div> : ''}
       
     </div>
   );

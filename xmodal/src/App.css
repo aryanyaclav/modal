@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-.modal{
+.model{
   display: flex;
   flex-direction: column;
   justify-content:flex-start;
