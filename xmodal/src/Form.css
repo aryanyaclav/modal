@@ -17,6 +17,7 @@ form{
     top: 150px;
     background-color: white;
     z-index: 3;
+    left: 36%;
 }
 
 .submit-button{
